@@ -12,6 +12,7 @@ Answer:
 What is an Array?
 Answer:
 
+
 What is the difference between Array and ArrayList?
 Answer:
 
