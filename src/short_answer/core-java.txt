@@ -33,18 +33,34 @@ Eclipse.
  IntelliJ IDEA.
 Explain the entire java life cycle.
 Answer:
+Life cycle of a java program tells us what happens right from the point when we type source code in a text editor to the point that source code is converted into machine code
+There are three main stages in the life cycle of a java program. They are: Editing the program, Compiling the source code, Executing the byte code
+The Java application life cycle. We can use any text editor to create the high-level Java text file. This file is saved as a .java file on the disk. We then compile this text file using the Java compiler, which result in a .class file being created on the disk. The .class file contains the bytecodes. The file is then loaded into memory by the class loader. The bytecode verifier confirms that the bytecodes are valid and not hostile. Finally, the JVM reads the bytecodes in memory and translates them into machine code. The latest release of Java 2 includes two virtual machine implementations:
+Java HotSpot Client VM - A virtual machine tuned for single-user client applications that require fast start-up times and low memory usage.
+Java HotSpot Server VM - A virtual machine tuned for multi-user applications running in a server environment. This VM includes active compilation (compiling sections of code, requiring high usage), high performance memory and thread managment. (Simply invoke by passing -server to the standard VM on execution, e.g. java -server HelloWorld)
 
 What is a class?
 Answer:
+A class is a template used to create objects and to define object data types and methods. Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.A Class is like an object constructor, or a "blueprint" for creating objects.
+
 
 What is an object?
 Answer:
+A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes. For example: in real life, a car is an object.
+
 
 What is the entry point of a Java project?
 Answer:
+A Java entry-point class has a main method with the following signature and modifiers: public static void main(String[] args) Sidenote: because of how arrays work, it can also be (String args[]) When the java command starts the virtual machine, it loads the specified entry-point classes and tries to find main .
 
 Why is the main() method static?
 Answer:
+Java main() method is always static, so that compiler can call it without the creation of an object or before the creation of an object of the class.
+In any Java program, the main() method is the starting point from where compiler starts program execution. So, the compiler needs to call the main() method.
+If the main() is allowed to be non-static, then while calling the main() method JVM has to instantiate its class.
+While instantiating it has to call the constructor of that class, There will be ambiguity if the constructor of that class takes an argument.
+Static method of a class can be called by using the class name only without creating an object of a class.
+The main() method in Java must be declared public, static and void. If any of these are missing, the Java program will compile but a runtime error will be thrown.
 
 Which class is the superclass of all classes?
 Answer:
