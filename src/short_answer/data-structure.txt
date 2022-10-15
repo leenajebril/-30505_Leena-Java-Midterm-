@@ -1,71 +1,34 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
-Why do we need data structure?
-Answer:
+Explain what static binding and dynamic binding is?
+Static binding is the binding which can be resolved at compile time by compiler . It is also known as early binding because binding takes place before the program actual runs. When we perform method overloading that is an example of static binding.
+In dynamic binding compilers is not able to resolve the binding at compile time. Dynamic binding is also known as late binding because happens during run time. Method Overloading is an example when dynamic binding is done
+Explain the difference between compile-time and run-time?
+In Compile time Polymorphism, the call is resolved by the compiler. In Run time Polymorphism, the call is not resolved by the compiler. Compile time  is also known as Static binding, Early binding and overloading as well. Run time
+is also known as Dynamic binding, Late binding and overriding as well.
+1Why do we need data structure?
+Data structures are useful in storing and organizing the data in an efficient manner.
 
-What are the various operations that can be performed on different data structures?
-Answer:
+2Data structures are useful in storing and organizing the data in an efficient manner.
+Searching. Inserting. Deleting. Sorting. Merging.
 
-When would we use data structures in the real world?
-Answer:
+What is an array?
 
-What is an Array?
-Answer:
-
-
+An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed.
 What is the difference between Array and ArrayList?
-Answer:
+Array is a fixed length data structure whereas ArrayList is a variable length Collection class. We cannot change length of array once created in Java but ArrayList can be changed. We cannot store primitives in ArrayList, it can only store objects. But array can contain both primitives and objects in Java.
 
 What is a LinkedList?
-Answer:
+The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList
 
 How is an Array different from LinkedList?
-Answer:
-
+An array is a collection of elements of a similar data type. A linked list is a collection of objects known as a node where node consists of two parts, i.e., data and address. Array elements store in a contiguous memory location. Linked list elements can be stored anywhere in the memory or randomly stored.
 What is a Queue?
-Answer:
-
+Queue in Java is a linear ordered data structure that follows FIFO (First In, First Out) ordering of elements. This means that the element inserted first in the queue will be the first element to be removed. In Java, the queue is implemented as an interface that inherits the Collection interface.
 What is a Stack (referring to data structures)?
-Answer:
-
+Stacks in Data Structures is a linear type of data structure that follows the LIFO (Last-In-First-Out) principle and allows insertion and deletion operations from one end of the stack data structure, that is top
 What is FIFO and LIFO?
-Answer:
+FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last. LIFO is an abbreviation for last in, first out. It is a method for handling data structures where the first element is processed last and the last element is processed first.
 
-Explain Big O Notation?
-Answer:
 
-What is the best case to search an element from an array?
-Answer:
-
-What is the worst case to search an element from an array?
-Answer:
-
-Describe what a tree data structure is?
-Answer:
-
-Describe what a graph data structure is?
-Answer:
-
-What is the difference between the HashTable and HashMap?
-Answer:
-
-How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
-
-What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
-
-What are the different ways of copying an array into another array?
-Answer:
-
-What is DFS and BFS?
-Answer:
-
-What is Recursion?
-Answer:
-
-What are linear and non-linear data Structures?
-Answer:
-
-Outline different sorting algorithms and their time complexities:
 
