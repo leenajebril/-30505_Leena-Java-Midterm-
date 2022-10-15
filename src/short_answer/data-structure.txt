@@ -30,5 +30,49 @@ Stacks in Data Structures is a linear type of data structure that follows the LI
 What is FIFO and LIFO?
 FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last. LIFO is an abbreviation for last in, first out. It is a method for handling data structures where the first element is processed last and the last element is processed first.
 
+What are linear and non-linear data Structures?
+Answer:A linear data structure includes arrays, linked lists,queues and stacks.
+A non-linear data structure is made up of trees and graphs.
+
+What is Recursion?
+Answer:The process in which a function calls itself directly or indirectly is called recursion.
+Recursion is an technique
+with the help of which we can reduce the length of our code and make it easier to read and write.
+
+What is DFS and BFS?
+Answer: DFS is an algorithm for traversing or searching tree or graph data structures.
+BFS is an algorithm for searching a tree data structure for a node that satisfies a given property.
+
+What are the different ways of copying an array into another array?
+Answer:Iterating each element of the given original array and copy one element at a time.
+       Using clone() method.
+       Using arraycopy() method.
+       Using copyOf() method of Arrays class.
+
+The ArrayIndexOutOfBoundsException is one of the most common errors in Java. It occurs when a program attempts to access an invalid index in an array i.e. an index that is less than 0, or equal to or greater than the length of the array
+
+How do HashMaps work in Java? How do they store values, and when are they useful?
+Answer:HashMap is a part of the Java collection framework. It uses a technique called Hashing.
+       It implements the map interface. It stores the data in the pair of Key and Value.
+       HashMap contains an array of the nodes, and the node is represented as a class.
+        It uses an array and LinkedList data structure internally for storing Key and Value.
+
+
+What is the difference between the HashTable and HashMap?
+Answer:HashMap is non-synchronized. It is not thread-safe and
+can’t be shared between many threads without proper synchronization code
+ Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+ HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value.
+ HashMap is generally preferred over HashTable if thread synchronization is not needed.
+
+Describe what a graph data structure is?
+Answer:A graph data structure is a collection of nodes that have data and are connected to other nodes.
+
+Describe what a tree data structure is?
+Answer:A tree is non-linear and a hierarchical data structure
+consisting of a collection of nodes such that each node of the tree stores
+a value and a list of references to other nodes (the 'children').
+This data structure is a specialized method to organize
+and store data in the computer to be used more effectively
 
 
